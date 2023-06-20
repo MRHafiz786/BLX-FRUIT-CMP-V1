@@ -1,0 +1,27 @@
+local script1 = [[
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MRHafiz786/fruit-35-nm/main/fruit%20nm"))();
+]]
+
+local script2 = [[
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MRHafiz786/fruit-spwn-show/main/fruit%20spaw"))();
+]]
+
+local combinedScript = script1 .. script2
+
+local scriptEnabled = false
+
+local function toggleScript()
+  scriptEnabled = not scriptEnabled
+
+  if scriptEnabled then
+    -- Execute the combined script
+    loadstring(combinedScript)()
+    print("Script is now enabled")
+  else
+    print("Script is now disabled")
+  end
+end
+
+toggleScript() -- Initially disable the script
+
+-- Example usage: Call toggleScript() to toggle the script on/off
