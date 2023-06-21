@@ -8,20 +8,5 @@ local script2 = [[
 
 local combinedScript = script1 .. script2
 
-local scriptEnabled = false
-
-local function toggleScript()
-  scriptEnabled = not scriptEnabled
-
-  if scriptEnabled then
-    -- Execute the combined script
-    loadstring(combinedScript)()
-    print("Script is now enabled")
-  else
-    print("Script is now disabled")
-  end
-end
-
-toggleScript() -- Initially disable the script
-
--- Example usage: Call toggleScript() to toggle the script on/off
+-- Execute the combined script
+loadstring(combinedScript)()
