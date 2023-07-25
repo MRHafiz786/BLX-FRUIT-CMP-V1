@@ -1,9 +1,9 @@
 local script1 = [[
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/MRHafiz786/FRUIT-SPAWN-ESP/main/FRUIT%20SPAWN%20NAMES"))();
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MRHafiz786/FRUIT-35-NAMES-ESP/main/FRUIT%2035%20NAMES%20SCRIPT"))();
 ]]
 
 local script2 = [[
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/MRHafiz786/FRUIT-35-NAMES-ESP/main/FRUIT%2035%20NAMES%20SCRIPT"))();
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/MRHafiz786/FRUIT-SPAWN-ESP/main/FRUIT%20SPAWN%20NAMES"))();
 ]]
 
 local combinedScript = script1 .. script2
